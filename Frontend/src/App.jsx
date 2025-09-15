@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.css";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold font-zentry text-violet-300">Hello</h1>
+    <main className="relative min-h-screen w-screen overflow-x-hidden ">
+      <Hero></Hero>
     </main>
   );
 }
